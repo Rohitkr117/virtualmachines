@@ -1,0 +1,964 @@
+/* landing page */
+
+position: relative;
+width: 1728px;
+height: 2115px;
+
+background: #E8E9C9;
+
+
+/* Rectangle 271 */
+
+position: absolute;
+width: 672px;
+height: 538px;
+left: 716.5px;
+top: 2193.5px;
+
+
+
+/* Group 21 */
+
+position: absolute;
+width: 1728px;
+height: 580px;
+left: 0px;
+top: 210px;
+
+
+
+/* Rectangle 273 */
+
+position: absolute;
+width: 1728px;
+height: 580px;
+left: 0px;
+top: 210px;
+
+background: #4EBCAC;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.62%;
+right: 57.06%;
+top: 12.67%;
+bottom: 65.39%;
+
+background: rgba(25, 46, 61, 0.12);
+
+
+/* Our web app is designed to foster connections within a university by bringing together students, faculty, alumni, and staff. It offers personalized profiles, tailored news feeds, and secure login through university credentials. The platform enables users to join groups, participate in discussions, and access an event calendar. Features like direct messaging, group chats, video conferencing for webinars, and AI chatbot assistance ensure seamless communication. Additionally, the app provides a marketplace, real-time notifications, a job and internship portal, and tools for alumni networking, creating a vibrant academic and professional community. */
+
+position: absolute;
+width: 727px;
+height: 482px;
+right: 952px;
+top: calc(50% - 482px/2 - 548.5px);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #E8E9C9;
+
+
+
+/* Line 3 */
+
+position: absolute;
+width: 515px;
+height: 0px;
+left: 798px;
+top: 235px;
+
+border: 1px solid #FFFFFF;
+transform: rotate(90deg);
+
+
+/* your guide to excellence */
+
+position: absolute;
+width: 1498px;
+height: 146px;
+left: 115px;
+top: 867px;
+
+font-family: 'Julius Sans One';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 105px;
+text-align: center;
+
+color: #192E3D;
+
+border: 3px solid #000000;
+
+
+/* carousel */
+
+position: absolute;
+width: 1672px;
+height: 502px;
+left: 56px;
+top: 1058px;
+overflow-x: scroll;
+
+background: #E8E9C9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* image */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 764px;
+height: 502px;
+left: 0px;
+top: 0px;
+
+background: url(image.png);
+border: 1px solid #000000;
+
+
+/* image 8 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 726px;
+height: 502px;
+left: 817px;
+top: 0px;
+
+background: url(image.png);
+border: 1px solid #000000;
+
+
+/* image 9 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 732px;
+height: 487.11px;
+left: 1596px;
+top: 0px;
+
+background: url(image.png);
+border: 1px solid #000000;
+
+
+/* image 10 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 732px;
+height: 487.11px;
+left: 2381px;
+top: 0px;
+
+background: url(image.png);
+border: 1px solid #000000;
+
+
+/* Group 29 */
+
+position: absolute;
+width: 735px;
+height: 471px;
+left: 892px;
+top: 257px;
+
+
+
+/* Group 24 */
+
+position: absolute;
+width: 735px;
+height: 471px;
+left: 892px;
+top: 257px;
+
+
+
+/* Rectangle 274 */
+
+position: absolute;
+width: 735px;
+height: 471px;
+left: 892px;
+top: 257px;
+
+background: #192E3D;
+box-shadow: 5px 6px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+
+
+/* Log in */
+
+position: absolute;
+width: 722px;
+height: 59px;
+left: calc(50% - 722px/2 + 396px);
+top: 281px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Group 29 */
+
+position: absolute;
+width: 560px;
+height: 321px;
+left: 980px;
+top: 361px;
+
+
+
+/* Form Log In */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 24px;
+
+position: absolute;
+width: 560px;
+min-width: 320px;
+height: 321px;
+left: 980px;
+top: 361px;
+
+background: #192E3D;
+border: 1px solid #D9D9D9;
+border-radius: 8px;
+
+
+/* Input Field */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 512px;
+height: 70px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 512px;
+height: 22px;
+
+/* Body Base */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+color: #E8E9C9;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Description */
+
+display: none;
+width: 240px;
+height: 22px;
+
+/* Body Base */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+color: #757575;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Input */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+
+width: 512px;
+min-width: 240px;
+height: 40px;
+
+background: #E8E9C9;
+border: 1px solid #D9D9D9;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Value */
+
+width: 480px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* identical to box height, or 16px */
+
+color: #B3B3B3;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Error */
+
+display: none;
+width: 37px;
+height: 22px;
+
+/* Body Base */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+color: #1E1E1E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Input Field */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 512px;
+height: 70px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 512px;
+height: 22px;
+
+/* Body Base */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+color: #E8E9C9;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Description */
+
+display: none;
+width: 240px;
+height: 22px;
+
+/* Body Base */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+color: #757575;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Input */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+
+width: 512px;
+min-width: 240px;
+height: 40px;
+
+background: #E8E9C9;
+border: 1px solid #D9D9D9;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Value */
+
+width: 480px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* identical to box height, or 16px */
+
+color: #B3B3B3;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Error */
+
+display: none;
+width: 37px;
+height: 22px;
+
+/* Body Base */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+color: #1E1E1E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Button Group
+
+Keywords: actions
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 512px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+display: none;
+width: 112px;
+height: 40px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+width: 512px;
+height: 40px;
+
+background: #000000;
+border: 1px solid #2C2C2C;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Star
+
+Keywords: bookmark, favorite, like
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+width: 52px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* identical to box height, or 16px */
+
+color: #E8E9C9;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* X
+
+Keywords: cancel, close, delete, remove, times, clear
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Text Link */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 512px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text Link */
+
+width: 136px;
+height: 22px;
+
+/* Body Link */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+text-decoration-line: underline;
+
+color: #EBFFEE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 27 */
+
+position: absolute;
+width: 1728px;
+height: 596.41px;
+left: 0px;
+top: 1727px;
+
+
+
+/* Group 26 */
+
+position: absolute;
+width: 1728px;
+height: 282px;
+left: 0px;
+bottom: -9px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+/* Rectangle 278 */
+
+position: absolute;
+width: 1728px;
+height: 282px;
+left: 0px;
+top: 1842px;
+
+background: #192E3D;
+
+
+/* contact us mail-kush@gmail.com mail-kush@gmail.com mail-kush@gmail.com call us phone no:0972374842 */
+
+position: absolute;
+width: 412px;
+height: 197px;
+left: 45px;
+top: 1883px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+
+
+
+/* Line 4 */
+
+position: absolute;
+width: 232px;
+height: 0px;
+left: 492px;
+top: 1859px;
+
+border: 1px solid #FFFFFF;
+transform: rotate(90deg);
+
+
+/* Follow us on */
+
+position: absolute;
+width: 446px;
+height: 38px;
+left: 886px;
+top: 1883px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 45.78%;
+right: 48.73%;
+top: 92.86%;
+bottom: 2.93%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 55.44%;
+right: 39.06%;
+top: 93%;
+bottom: 2.79%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 65.16%;
+right: 29.34%;
+top: 93%;
+bottom: 2.79%;
+
+background: #000000;
+
+
+/* github-square */
+
+position: absolute;
+width: 25px;
+height: 25px;
+left: 1040.92px;
+top: 1954.3px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 75.75%;
+right: 18.75%;
+top: 93%;
+bottom: 2.79%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 40.24%;
+right: 22.03%;
+top: 81.65%;
+bottom: -3.12%;
+
+background: rgba(21, 33, 61, 0.4);
+transform: rotate(13.8deg);
+
+
+/* Group 20 */
+
+position: absolute;
+width: 1728px;
+height: 133px;
+left: 0px;
+top: 0px;
+
+
+
+/* Group 19 */
+
+position: absolute;
+width: 1728px;
+height: 133px;
+left: 0px;
+top: 0px;
+
+
+
+/* Rectangle 265 */
+
+position: absolute;
+width: 1728px;
+height: 133px;
+left: 0px;
+top: 0px;
+
+background: #4EBCAC;
+
+
+/* campus circle */
+
+position: absolute;
+width: 477px;
+height: 61px;
+left: 163px;
+top: 36px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+
+color: #15213D;
+
+
+
+/* Rectangle 272 */
+
+position: absolute;
+width: 175px;
+height: 61px;
+left: 1499px;
+top: 36px;
+
+background: #192E3D;
+border-radius: 30px;
+
+
+/* sign in */
+
+position: absolute;
+width: 122px;
+height: 32px;
+left: 1534px;
+top: 46px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+
+color: #E8E9C9;
+
+
+
+/* eng */
+
+position: absolute;
+width: 83px;
+height: 51px;
+left: 1310px;
+top: 39px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #15213D;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 2.03%;
+right: 92.3%;
+top: 1.13%;
+bottom: 95.04%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 81.83%;
+right: 16.2%;
+top: 2.17%;
+bottom: 96.22%;
+
+background: #000000;
