@@ -37,7 +37,7 @@ body {
     text-decoration: none;
     margin-left: 20px;
     font-size: 18px;
-    font-family:;
+   
 }
 
 .sign-in-btn{
@@ -47,6 +47,10 @@ body {
     border-radius: 30px;
     color: #E8E9C9;
     border: #192E3D solid;
+}
+
+.submit{
+    margin-bottom: 10px;
 }
 
 .nav a:hover {
@@ -117,6 +121,7 @@ main {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .login-box button:hover {
