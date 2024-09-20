@@ -2,6 +2,8 @@
 
 /* Basic Reset */
 * {
+    overflow-x: hidden;
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,14 +15,19 @@ body {
     background-color: #E8E9C9;
     color: #333;
 }
-
+.navbar{
+   width: 100vw;
+   position: sticky;
+   top: 0;
+}
 /* Header */
 .header-container {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #4EBCAC;
-    padding: 10px 20px;
+    padding: 10px 30px;
 }
 
 .logo img {
@@ -39,7 +46,7 @@ body {
     margin-left: 20px;
     font-size: 18px;
    
-    font-family: 'Arial', sans-serif; /* Added missing font-family value */
+    font-family: 'Arial', 'sans-serif';
 }
 
 .sign-in-btn {
@@ -64,10 +71,17 @@ main {
     padding-top: 20px;
 }
 
+.hero{
+    width: 100vw;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* Intro Section */
 .intro {
+    width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #4EBCAC;
     padding: 40px;
@@ -75,19 +89,19 @@ main {
 
 .intro .content {
     background-image: url(Assets/LogoWatermark.svg);
-    background-position: center center ;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 30vh;
+    background-position: center;
+    height: 50vh;
     position: relative;
     display: flex;
-    width: 40%;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
     font-family: 'Inter', 'Arial', sans-serif;
-    font-size: 24px;
     color: #E8E9C9;
-    border-right: 4px solid wh;
-    margin-right: 400px;
-    border-right: 4px solid white;
+    /* padding-right:200px; */
+    
 }
 
 .intro p {
@@ -101,10 +115,12 @@ main {
     flex-direction: column;
     justify-content: center;
     background-color: #2C3E50;
-    margin-right: 300px;
-    padding: 30px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 40px;
     color: white;
     border-radius: 10px;
+    
     width: 40vw;
     text-align: center;
 }
@@ -156,6 +172,10 @@ main {
     font-size: 14px;
 }
 
+.create-account:hover{
+    text-decoration: underline;
+}
+
 .forgot-password {
     color: #A9C4E1;
     text-decoration: none;
@@ -165,9 +185,78 @@ main {
 .forgot-password:hover {
     text-decoration: underline;
 }
+/* Basic Carousel Styling */
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 10s ease-in-out;
+    width: 300%; /* To hold 3 slides */
+  }
+  
+
+  
+  .carousel-item img {
+    width: 100%;
+    height: fit-content;
+    border: 10px solid #E8E9C9
+  }
+  
+  /* Navigation Buttons */
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  /* Default state: Show first slide */
+  .carousel-track {
+    transform: translateX(0%);
+  }
+  
+  /* Hovering on the next button: Move to the next slide */
+  .next-btn:hover ~ .carousel-track {
+    transform: translateX(-100%);
+  }
+  
+  /* Hovering on the prev button: Move back to the previous slide */
+  .prev-btn:hover ~ .carousel-track {
+    transform: translateX(100%);
+  }
+  
+  /* Hovering on both prev/next returns different slides */
+  .carousel:hover .carousel-track {
+    transform: translateX(-100%);
+  }
+  
+  
 
 /* Guide Section */
 .guide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
     margin-top: 50px;
 }
@@ -193,8 +282,9 @@ main {
 /* Footer */
 footer {
     position: end;
+    width: 100vw;
     background-color: #2C3E50;
-    color: white;
+    color: #E8E9C9;
     padding: 40px 20px;
     display: flex;
     justify-content: space-between;
@@ -214,11 +304,21 @@ footer {
     margin-bottom: 10px;
 }
 
+.social{
+    /* background-color: #E8E9C9; */
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
 .social-icons {
     display: flex;
     gap: 10px;
 }
 
-.social-icons img {
-    width: 30px;
+.social-icons i{
+    
+    font-size: 24px;
+    cursor: pointer;
 }
+
