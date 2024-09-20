@@ -72,6 +72,13 @@ main {
 }
 
 .intro .content {
+    background-image: url(Assets/LogoWatermark.svg);
+    background-position: center center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
+    position: relative;
+    display: flex;
     width: 40%;
     font-family: 'Inter','Arial';
     font-size: 24px;
