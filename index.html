@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/index.html# -->
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campus Circle</title>
+    <link rel="stylesheet" href="./Campus Circle_files/style.css" />
+  </head>
+  <body
+    class="vsc-initialized"
+    data-new-gr-c-s-check-loaded="14.1196.0"
+    data-gr-ext-installed=""
+  >
+    <!-- Header Section -->
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <img src="./Campus Circle_files/logo.svg" alt="Campus Circle Logo" />
+        </div>
+        <div class="nav">
+          <p>
+            eng
+            <span
+              ><img
+                src="./Campus Circle_files/LanguageChange.svg"
+                style="
+                  width: 30px;
+                  height: 30px;
+                  margin-left: 2px;
+                  padding: 5px;
+                " /></span
+            ><img
+              src="./Campus Circle_files/LanguageChange.svg"
+              style="width: 30px; height: 30px; margin-left: 2px; padding: 5px"
+            />
+            sign in
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+      <section class="intro">
+        <div class="content">
+          <p>
+            Our web app is designed to foster connections within a university by
+            bringing together students, faculty, alumni, and staff. It offers
+            personalized profiles, tailored news feeds, and secure login through
+            university credentials. The platform enables users to join groups,
+            participate in discussions, and access an event calendar. Features
+            like direct messaging, group chats, video conferencing for webinars,
+            and AI chatbot assistance ensure seamless communication.
+            Additionally, the app provides a marketplace, real-time
+            notifications, a job and internship portal, and tools for alumni
+            networking, creating a vibrant academic and professional community.
+          </p>
+        </div>
+        <div class="accounts">
+          <a href="http://127.0.0.1:5500/index.html#" class="account-btn"
+            >student account</a
+          >
+          <a href="http://127.0.0.1:5500/index.html#" class="account-btn"
+            >alumni account</a
+          >
+          <a href="http://127.0.0.1:5500/index.html#" class="account-btn"
+            >organisation account</a
+          >
+        </div>
+      </section>
+
+      <section class="guide">
+        <h1>YOUR GUIDE TO EXCELLENCE</h1>
+        <div class="images">
+          <img
+            src="./Campus Circle_files/student-studying.jpg"
+            alt="Student Studying"
+          />
+          <img src="./Campus Circle_files/group-study.jpg" alt="Group Study" />
+        </div>
+      </section>
+    </main>
+
+    <!-- Code injected by live-server -->
+    <script>
+      // <![CDATA[  <-- For SVG support
+      if ("WebSocket" in window) {
+        (function () {
+          function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName("link"));
+            var head = document.getElementsByTagName("head")[0];
+            for (var i = 0; i < sheets.length; ++i) {
+              var elem = sheets[i];
+              var parent = elem.parentElement || head;
+              parent.removeChild(elem);
+              var rel = elem.rel;
+              if (
+                (elem.href && typeof rel != "string") ||
+                rel.length == 0 ||
+                rel.toLowerCase() == "stylesheet"
+              ) {
+                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
+                elem.href =
+                  url +
+                  (url.indexOf("?") >= 0 ? "&" : "?") +
+                  "_cacheOverride=" +
+                  new Date().valueOf();
+              }
+              parent.appendChild(elem);
+            }
+          }
+          var protocol =
+            window.location.protocol === "http:" ? "ws://" : "wss://";
+          var address =
+            protocol + window.location.host + window.location.pathname + "/ws";
+          var socket = new WebSocket(address);
+          socket.onmessage = function (msg) {
+            if (msg.data == "reload") window.location.reload();
+            else if (msg.data == "refreshcss") refreshCSS();
+          };
+          if (
+            sessionStorage &&
+            !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
+          ) {
+            console.log("Live reload enabled.");
+            sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
+          }
+        })();
+      } else {
+        console.error(
+          "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
+        );
+      }
+      // ]]>
+    </script>
+
+    <iframe
+      frameborder="0"
+      scrolling="no"
+      style="background-color: transparent; border: 0px; display: none"
+      src="./Campus Circle_files/saved_resource.html"
+    ></iframe>
+    <div
+      id="GOOGLE_INPUT_CHEXT_FLAG"
+      input=""
+      input_stat='{"tlang":true,"tsbc":true,"pun":true,"mk":true,"ss":true}'
+      style="display: none"
+    ></div>
+  </body>
+  <grammarly-desktop-integration data-grammarly-shadow-root="true"
+    ><template shadowrootmode="open"
+      ><style>
+        div.grammarly-desktop-integration {
+          position: absolute;
+          width: 1px;
+          height: 1px;
+          padding: 0;
+          margin: -1px;
+          overflow: hidden;
+          clip: rect(0, 0, 0, 0);
+          white-space: nowrap;
+          border: 0;
+          -moz-user-select: none;
+          -webkit-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+
+        div.grammarly-desktop-integration:before {
+          content: attr(data-content);
+        }
+      </style>
+      <div
+        aria-label="grammarly-integration"
+        role="group"
+        tabindex="-1"
+        class="grammarly-desktop-integration"
+        data-content='{"mode":"full","isActive":true,"isUserDisabled":false}'
+      ></div></template
+  ></grammarly-desktop-integration>
+</html>
