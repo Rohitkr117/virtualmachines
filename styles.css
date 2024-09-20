@@ -67,7 +67,7 @@ main {
 /* Intro Section */
 .intro {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #4EBCAC;
     padding: 40px;
@@ -85,6 +85,9 @@ main {
     font-family: 'Inter', 'Arial', sans-serif;
     font-size: 24px;
     color: #E8E9C9;
+    border-right: 4px solid wh;
+    margin-right: 400px;
+    border-right: 4px solid white;
 }
 
 .intro p {
@@ -94,11 +97,15 @@ main {
 
 /* Login Box */
 .login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #2C3E50;
+    margin-right: 300px;
     padding: 30px;
     color: white;
     border-radius: 10px;
-    width: 300px;
+    width: 40vw;
     text-align: center;
 }
 
@@ -180,10 +187,12 @@ main {
 .images img {
     width: 300px;
     border-radius: 10px;
+    height: 300px;
 }
 
 /* Footer */
 footer {
+    position: end;
     background-color: #2C3E50;
     color: white;
     padding: 40px 20px;
