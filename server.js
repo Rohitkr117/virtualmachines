@@ -25,10 +25,11 @@ io.on('connection', (socket) => {
 
     // Listen for incoming messages
     socket.on('send_message', (data) => {
+        const {username,message}= data;
         console.log('Message received:', data);
 
         // Broadcast message to everyone
-        io.emit('receive_message', data);
+        io.emit('receive_message', {username,message});
     });
 
     // Listen for typing events
