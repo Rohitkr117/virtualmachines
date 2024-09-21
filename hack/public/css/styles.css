@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Basic Reset */
+* {
+    overflow-x: hidden;
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font Settings */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #E8E9C9;
+    color: #333;
+}
+.navbar{
+   width: 100vw;
+   position: sticky;
+   top: 0;
+}
+/* Header */
+.header-container {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4EBCAC;
+    padding: 10px 30px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav a {
+    color: #000;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+   
+    font-family: 'Arial', 'sans-serif';
+}
+
+.sign-in-btn {
+    background-color: #192E3D;
+    width: 60px;
+    height: 30px;
+    border-radius: 30px;
+    color: #E8E9C9;
+    border: #192E3D solid;
+}
+
+.submit{
+    margin-bottom: 10px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding-top: 20px;
+}
+
+.hero{
+    width: 100vw;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Intro Section */
+.intro {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4EBCAC;
+    padding: 40px;
+}
+
+.intro .content {
+    background-image: url(Assets/LogoWatermark.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    font-family: 'Inter', 'Arial', sans-serif;
+    color: #E8E9C9;
+    /* padding-right:200px; */
+    
+}
+
+.intro p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Login Box */
+.login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2C3E50;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 40px;
+    color: white;
+    border-radius: 10px;
+    
+    width: 40vw;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box label {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.login-box input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-box button {
+    padding: 10px;
+    background-color: #34495E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.login-box button:hover {
+    background-color: #3B556C;
+}
+
+.forgotpass-createacc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.create-account {
+    color: #A9C4E1;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.create-account:hover{
+    text-decoration: underline;
+}
+
+.forgot-password {
+    color: #A9C4E1;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+/* Basic Carousel Styling */
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 10s ease-in-out;
+    width: 300%; /* To hold 3 slides */
+  }
+  
+
+  
+  .carousel-item img {
+    width: 100%;
+    height: fit-content;
+    border: 10px solid #E8E9C9
+  }
+  
+  /* Navigation Buttons */
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  /* Default state: Show first slide */
+  .carousel-track {
+    transform: translateX(0%);
+  }
+  
+  /* Hovering on the next button: Move to the next slide */
+  .next-btn:hover ~ .carousel-track {
+    transform: translateX(-100%);
+  }
+  
+  /* Hovering on the prev button: Move back to the previous slide */
+  .prev-btn:hover ~ .carousel-track {
+    transform: translateX(100%);
+  }
+  
+  /* Hovering on both prev/next returns different slides */
+  .carousel:hover .carousel-track {
+    transform: translateX(-100%);
+  }
+  
+  
+
+/* Guide Section */
+.guide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.guide h1 {
+    font-size: 36px;
+    color: #2C3E50;
+    margin-bottom: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.images img {
+    width: 300px;
+    border-radius: 10px;
+    height: 300px;
+}
+
+/* Footer */
+footer {
+    position: end;
+    width: 100vw;
+    background-color: #2C3E50;
+    color: #E8E9C9;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact h3, .social h3 {
+    margin-bottom: 15px;
+}
+
+.contact p, .social p {
+    margin-bottom: 10px;
+}
+
+.social{
+    /* background-color: #E8E9C9; */
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons i{
+    
+    font-size: 24px;
+    cursor: pointer;
+}
+

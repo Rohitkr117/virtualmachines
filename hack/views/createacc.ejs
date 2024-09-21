@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Circle - Create Account</title>
+    <link rel="stylesheet" href="/form.css">
+</head>
+<!-- <link rel="stylesheet" href="style.css"> -->
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <!-- <i class="fas fa-user"></i> -->
+
+                <img src="/logo.svg" alt="Campus Circle Logo">
+                <span>campus circle</span>
+            </div>
+            <div class="top-right">
+                <span>eng</span>
+                <span class="lang-switch">
+                    <i class="fas fa-globe"></i>
+                </span>
+                <button class="sign-in-btn">Sign In</button>
+            </div>
+        </header>
+        <main>
+            <div class="form-container">
+                <div class="user-icon">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <form method="post" action="/user?__method=PATCH">
+                    <!-- <img src="image.png" alt"hello"> -->
+<!--                     
+                    <select name="" id="account-type" class="account" placeholder="account-type">
+                        <option value="" placeholder="account-type"></option>
+                        <option value="student">Student</option>
+                        <option value="faculty">Faculty</option>
+                        <option value="alumni">Alumni</option>
+                    </select> -->
+                    <select name="acc_type" id="account-type" class="account">
+                        <option value="" disabled selected>Select Account Type</option>
+                        <option value="student">Student</option>
+                        <option value="faculty">Faculty</option>
+                        <option value="alumni">Alumni</option>
+                    </select>
+                    
+    
+                        
+                        <!-- <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="E-mail" required>
+                        <input type="password" placeholder="Password" required>
+                        <button type="submit">Create Account</button> -->
+                    
+
+                    
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="email" placeholder="E-mail" name="email" required>
+                    <input type="password" placeholder="Password" name="password" required>
+                    <button type="submit">Create Account</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div class="contact-info">
+                    <p>Contact us</p>
+                    <p>mail-kush@gmail.com</p>
+                    <p>Phone: 0972374842</p>
+                </div>
+                <div class="social-links">
+                    <p>Follow us on</p>
+                    <div class="icons">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-github"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
