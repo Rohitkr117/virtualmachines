@@ -24,7 +24,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #4EBCAC;
-    padding: 10px 20px;
+    padding: 10px 30px;
     /* display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,23 +49,31 @@ header {
     color: #000;
 }
 
-.top-right {
+.nav {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.lang-switch {
-    margin-right: 10px;
+.nav a {
+    color: #000;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+   
+    font-family: 'Arial', 'sans-serif';
 }
 
 .sign-in-btn {
-    background-color: #313131;
-    color: white;
-    border: none;
-    padding: 8px 1px;
-    border-radius: 5px;
-    cursor: pointer;
+    background-color: #192E3D;
+    width: 60px;
+    height: 30px;
+    border-radius: 30px;
+    color: #E8E9C9;
+    border: #192E3D solid;
 }
+
+
 
 main {
     display: flex;
