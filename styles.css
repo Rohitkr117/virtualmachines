@@ -21,6 +21,7 @@ body {
    top: 0;
 }
 /* Header */
+
 .header-container {
     
     display: flex;
@@ -30,8 +31,21 @@ body {
     padding: 10px 30px;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+}
+
 .logo img {
     width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
 }
 
 .nav {
@@ -279,46 +293,28 @@ main {
     height: 300px;
 }
 
-/* Footer */
 footer {
-    position: end;
-    width: 100vw;
-    background-color: #2C3E50;
-    color: #E8E9C9;
-    padding: 40px 20px;
-    display: flex;
-    justify-content: space-between;
+    background-color: #2f3d49;
+    color: #E7E3C5;
+    padding: 10px 0;
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    padding: 0 30px;
 }
 
-.contact h3, .social h3 {
-    margin-bottom: 15px;
+.contact-info p, .social-links p {
+    margin-bottom: 5px;
 }
 
-.contact p, .social p {
-    margin-bottom: 10px;
-}
-
-.social{
-    /* background-color: #E8E9C9; */
-    display: flex;
-    flex-direction: column;
-    margin-right: 20px;
-}
-
-.social-icons {
+.icons {
     display: flex;
     gap: 10px;
 }
 
-.social-icons i{
-    
+.icons i {
     font-size: 24px;
     cursor: pointer;
 }
-
