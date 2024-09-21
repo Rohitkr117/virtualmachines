@@ -70,7 +70,7 @@ app.post("/",(req,res)=>{
             }
             let db_psswd=result[0]["password"];
             if(db_psswd==password){
-                res.send("Logged In");
+                res.render("profile.ejs",{result});
             }else{
                 return res.send('<script>alert("Invalid Password!"); window.history.back();</script>');
             }
