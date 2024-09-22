@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import io from 'socket.io-client';
 
-// Create a socket instance to connect with the backend server
-const socket = io('http://192.168.22.176:5000'); // Make sure to point this to your backend URL
+ // Make sure to point this to your backend URL
 
-function Chat() {
+function Chat({socket}) {
   const [username, setUsername] = useState(''); // To store the user's name
   const [message, setMessage] = useState('');   // To store the current message being typed
   const [messages, setMessages] = useState([]); // To store all received messages
